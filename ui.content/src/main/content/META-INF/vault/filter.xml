@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/events" mode="merge"/>
+    <filter root="/content/events" mode="merge"/>
+    <filter root="/content/dam/events" mode="merge"/>
+    <filter root="/content/experience-fragments/events" mode="merge"/>
+    <filter root="/etc/events" mode="merge"/>
+</workspaceFilter>

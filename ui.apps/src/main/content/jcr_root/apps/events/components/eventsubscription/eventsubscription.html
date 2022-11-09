@@ -1,0 +1,10 @@
+<sly data-sly-use.eventSubscriptionModel="com.events.core.models.EventSubscriptionModel"></sly>
+<form>
+    <label for="fname">${eventSubscriptionModel.firstNameLabel}</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">${eventSubscriptionModel.lastNameLabel}</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">${eventSubscriptionModel.emailLabel}</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit">
+</form>

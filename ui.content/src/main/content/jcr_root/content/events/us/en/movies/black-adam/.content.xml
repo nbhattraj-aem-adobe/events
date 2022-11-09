@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-08T10:45:57.490+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/events/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Black Adam"
+        sling:resourceType="events/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="events/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="events/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="events/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="events/components/container"
+                    layout="responsiveGrid">
+                    <image
+                        jcr:created="{Date}2022-11-06T20:35:17.570+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-11-06T20:39:40.577+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="events/components/image"
+                        fileReference="/content/dam/events/movies/black-adam.jpeg"
+                        imageFromPageImage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </image>
+                    <eventdetails
+                        jcr:created="{Date}2022-11-06T21:09:48.853+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-11-08T10:12:09.632+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="events/components/eventdetails"
+                        text="&lt;p>Nearly 5,000 years after he was bestowed with the almighty powers of the ancient gods—and imprisoned just as quickly—Black Adam (Johnson) is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <details jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                text="20/10/2022"
+                                title="Release Date:"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                text="126 mins"
+                                title="Running Time:"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                text="Jaume Collet-Serra"
+                                title="Director"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                text="Dwayne Johnson, Pierce Brosnan, Marwan Kenzari, Aldis Hodge, Sarah Shahi, Noah Centineo, Quintessa Swindell, Bodhi Sabongui"
+                                title="Cast:"/>
+                        </details>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="6"/>
+                        </cq:responsive>
+                    </eventdetails>
+                    <button
+                        jcr:created="{Date}2022-11-08T10:39:34.838+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-11-08T10:45:03.361+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Subscribe Now"
+                        sling:resourceType="events/components/button"
+                        accessibilityLabel="Subscribe Now"
+                        linkTarget="_self"
+                        linkURL="/content/events/us/en/movies/black-adam/subscribe-now">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="5"
+                                width="3"/>
+                        </cq:responsive>
+                    </button>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <subscribe-now/>
+</jcr:root>

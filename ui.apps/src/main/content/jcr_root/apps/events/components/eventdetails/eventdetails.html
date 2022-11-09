@@ -1,0 +1,9 @@
+    <sly data-sly-use.eventDetailsModel="com.events.core.models.EventDetailsModel"></sly>
+        ${eventDetailsModel.text @ context='html'}
+        <sly data-sly-list="${eventDetailsModel.detailsList}">
+            <b>${item.title}</b>    ${item.text}<br/>
+        </sly>
+
+    <sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+         data-sly-call="${template.placeholder @ isEmpty=!eventDetailsModel.text, classAppend='cq-dd-eventdetails'}"></sly>
+    <div data-sly-test="${wcmmode.edit}" style="clear: both;"></div>

@@ -1,0 +1,16 @@
+# Service users and groups
+
+- user_config:
+
+    - subscriptionWriteService:
+        - name: subscriptionWriteService
+          isMemberOf:
+          path: system/events/
+          isSystemUser: true
+
+- ace_config:
+
+    - subscriptionWriteService:
+        - path: /etc/events
+          permission: allow
+          actions: acl_read,acl_edit,delete,modify,read,create,replicate
