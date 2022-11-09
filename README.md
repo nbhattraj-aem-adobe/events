@@ -23,5 +23,6 @@ As part of the challenge below features have been created:
 
 **Improvement areas:**
 1. Connection between submit on Event-Register page and servlet that validates, persists data.
-2. Usage of real REST Endpoint could help reuse ACS-COMMONS REST connector service rather than using custom AEM Servlet as REST Endpoint having to provide username, password in config.
-3. Usage of Encryption on username, password fields in config.
+2. Popup on submit in Subscribe-now page to show alert message or thank you page redirection.
+3. Usage of real REST Endpoint could help reuse ACS-COMMONS REST connector service rather than using custom AEM Servlet as REST Endpoint having to provide username, password in config.
+4. Usage of Encryption on username, password fields in config.

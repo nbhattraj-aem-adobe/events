@@ -25,6 +25,9 @@ public class EventSubscriptionModel {
     @Default(values = "Email:")
     private String emailLabel;
 
+    @ValueMapValue
+    private String thankYouPage;
+
     public String getFirstNameLabel(){
         return firstNameLabel;
     }
@@ -36,5 +39,7 @@ public class EventSubscriptionModel {
     public String getEmailLabel(){
         return emailLabel;
     }
+
+    public String getThankYouPage() {return thankYouPage;}
 
 }
